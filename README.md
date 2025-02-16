@@ -1,4 +1,6 @@
 # Mininet-POX-Router
+Similar to the POX Firewall project, this POX router forwards packets from a source to a destination along the network defined by topo.py. The main difference is that there are subnetworks that are connected by a switch. The switches of these subnetworks all connect to a core switch which is also connected to some external internet devices.
+
 ## USAGE
 ONLY RUN THESE FILES IN MININET
 Save topo.py in the root directory
